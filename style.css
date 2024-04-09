@@ -1,0 +1,337 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.sidebar{
+    background-color:rgb(168, 165, 165);
+    /* width:434px; */
+    height: 100vh;
+    position: absolute;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    transition:transform 0.3s ease;
+}
+
+.sidebar li{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.sidebar li a{
+             text-decoration: none;
+             color:black;
+}
+
+.main{
+    /* background-color: yellow; */
+    width: 90vw;
+    margin-left:95px;
+}
+.container{
+    display:flex;
+}
+
+
+.sidebar nav{
+    padding: 52px;
+}
+.sidebar ul li{
+    list-style: none;
+    font-size: 25px;
+    padding: 30px 0px;
+}
+
+.info-container{
+    /* background-color: rgba(0,0,0); */
+    height: 75vh;
+    width: 80vw;
+    margin: auto;
+    margin-top: 97px;
+    display: flex;
+    justify-content: space-around;
+    align-items:end;
+    /* flex-direction: ; */
+}
+
+.image{
+    height:450px;
+    /* border: 1px solid red; */
+    width: 450px;
+    margin-bottom: 80px;
+    
+}
+
+
+.devInfo{
+    /* border: 1px solid red; */
+    height:75vh;
+    width: 750px;
+    display: flex;
+    justify-content:center;
+    align-items:baseline;
+    flex-direction: column;
+    padding-left:15px;
+}
+
+
+.hello{
+    font-size: 85px;
+    /* font-family: "Roboto Mono", monospace; */
+    font-weight:lighter;
+    padding: 10px 0px;
+
+}
+
+.name{
+    font-size: 60px;
+    font-family: "Madimi One", sans-serif;
+    font-weight: bolder;
+    padding-bottom:10px;
+}
+.about{
+    font-family: "Ojuju", sans-serif;
+    font-size: 30px;
+    padding: 10px 0px;
+    
+}
+.buttons{
+     margin-top: 10px;
+     padding-right:420px ;
+     
+}
+.buttons button{
+    margin: 3px;
+    padding:7px;
+    border-radius:155px;
+    color: white;
+    background-color:dodgerblue;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.buttons button:hover{
+    color:dodgerblue;
+    background-color:white;
+}
+
+.contactform h1{
+       font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        text-align:start;
+}
+
+#emailHelp{
+          padding-top:10px;
+          padding-bottom: 17px;
+          text-align: start;
+          font-size: 12px;
+          color: rgb(22, 12, 222);
+}
+
+.contactform{
+    padding: 0 144px;
+    padding-top: 144px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactform h1{
+    margin-bottom:35px;
+}
+
+.contactform .mb-3{
+    padding: 8px 0;
+    
+}
+
+#clientemail{
+    width: 250px;
+    height: 20px;
+    border-radius: 9px;
+    padding:2px;
+    padding-left:12px;
+}
+
+#clientphone{
+    width:120px;
+    height: 20px;
+    border-radius: 9px;
+    padding:2px;
+    padding-left:12px;
+}
+
+#clientname{
+    width: 200px;
+    height: 20px;
+    border-radius: 9px;
+    padding:2px 0;
+    padding-left:12px;
+    margin-bottom:15px;
+}
+
+#clientenquiry{
+    width:300px;
+    height: 30px;
+    border-radius: 9px;
+    padding:20px;
+    padding:20px 12px;
+}
+
+.sm-btn{
+    margin: 3px;
+    margin-top: 15px;
+    padding:7px;
+    border-radius:300px;
+    color: white;
+    background-color:dodgerblue;
+    font-weight: bold;
+    cursor: pointer;
+    width: 80px;
+}
+
+.sm-btn:hover{
+    color:dodgerblue;
+    background-color:white;
+}
+
+.blogitem{
+    margin: 12px 22px;
+    padding:20px 100px;
+}
+
+.blogitem h2{
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.blogitem p{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+
+}
+
+.blogBtn{
+    margin: 3px;
+    margin-top: 15px;
+    padding:7px;
+    border-radius:300px;
+    color: white;
+    background-color:dodgerblue;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.blogBtn:hover{
+    color:dodgerblue;
+    background-color:white;
+}
+
+.introBtn{
+    margin: 3px;
+    margin-top: 15px;
+    padding:7px;
+    border-radius:300px;
+    color: white;
+    background-color:dodgerblue;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.introBtn:hover{
+    color:dodgerblue;
+    background-color:white;
+
+}
+
+.skillcontainer{
+    padding-top: 15px;
+    padding-left:100px;
+}
+
+.skillcontainer h1{
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+/* .skill{
+    width:265px;
+    height:15px;
+ background-color: red;
+} */
+
+.skillitem{
+    display: flexbox;
+    padding:10px;
+}
+
+.html{
+    width: 245px;
+    height:15px;
+    background-color:dodgerblue;
+
+}
+.css{
+    width: 235px;
+    height:15px;
+    background-color:dodgerblue;
+
+}
+.js{
+    width: 215px;
+    height:15px;
+    background-color:dodgerblue;
+
+}
+.c{
+    width: 245px;
+    height:15px;
+    background-color:dodgerblue;
+
+}
+.cpp{
+    width: 215px;
+    height:15px;
+    background-color:dodgerblue;
+
+}
+.py{
+    width: 215px;
+    height:15px;
+    background-color:dodgerblue;
+
+}
+.dsa{
+    width: 180px;
+    height:15px;
+    background-color:dodgerblue;
+
+}
+
+@media (max-width:1402px){
+
+    .devPic{
+        display: none;
+     
+    }
+    .intro,.blogContainer,.contactform{
+        margin-left:8px;
+    }
+    
+    
+}
+
+.sidebarGo{
+    transform: translate(-443px,0px);
+    position: absolute;
+
+}
+
+.threeline{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+
+}
+
+.cross{
+    margin-left:122px;
+
+}

@@ -1,0 +1,32 @@
+div sidebar,nav bar
+div main-about me,
+    div infoContainer
+       devpic,devInfo 
+div container where all site is present
+
+ <!-- <div class="main">
+        <label for="email">email:</label>
+        <input type="email" name="email" id="email" placeholder="your email" required>
+
+
+        <label for="PASSWORD">password:</label>
+        <input type="password" name="password" id="password" placeholder="enter your password" 
+            required title="please enter more than 4 cxharacters"> -->
+
+
+             <form>
+                    <div class="mb-3">
+                      <label for="exampleInputEmail1" class="form-label">Email address</label>
+                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                      <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                    </div>
+                    <div class="mb-3">
+                      <label for="exampleInputPassword1" class="form-label">Password</label>
+                      <input type="password" class="form-control" id="exampleInputPassword1">
+                    </div>
+                    <div class="mb-3 form-check">
+                      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                      <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                  </form>
